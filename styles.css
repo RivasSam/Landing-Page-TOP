@@ -8,8 +8,19 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ } 
+
+ 
+
+ footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+ }
 
 header, footer, .section1 {
   background-color: #1f2937;
