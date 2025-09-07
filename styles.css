@@ -18,6 +18,24 @@ header, footer, .section1 {
   color: #f9faf8;
 }
 
+header {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+header ul li {
+  font-weight: bolder;
+  cursor: pointer;
+}
 
 .section1 {
   display: flex;
