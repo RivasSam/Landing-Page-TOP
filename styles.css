@@ -83,16 +83,18 @@ header ul li {
 }
 
 .section2 .cardContainer {
+  max-width: 1200px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 8px;
 }
 
 .section2 .cardContainer .card {
-  max-width: 250px;
+  max-width: 220px;
+  margin-bottom: 16px;
 }
 
 .section2 .cardContainer .card img {
@@ -152,14 +154,16 @@ header ul li {
 }
 
 .blueContainer button {
+  height: auto;
   border: 1px solid #f9faf8;
   background-color: #3B82F6;
   color: #e5e7eb;
   border-radius: 3px;
-  padding: 0px 18px;
+  padding: 8px 18px;
   font-weight: 900;
   cursor: pointer;
   flex-shrink: 0;
+  align-self: center;
 }
 
 
